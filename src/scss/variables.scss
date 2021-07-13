@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&family=Work+Sans&family=Viaoda+Libre&display=swap');
+
+// Fonts
+$prim-font : 'Josefin Sans';
+$sec-font: 'Work Sans';
+$quote-font: 'Viaoda Libre';
+
+// colors
+$black: #000;
+$white: #fff;
+$page-heading: rgba(255, 255, 255, 0.103);
+$light-grey: rgb(240, 236, 236);
+$mid-grey:rgb(184, 180, 180);
+$dark-grey : rgb(31, 30, 30);
+
+// Mixins
+@mixin flex  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

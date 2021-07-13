@@ -1,0 +1,29 @@
+@import '../../scss/variables.scss';
+
+
+
+
+.heading {
+    transform: rotate(-90deg);
+    
+    transform-origin: left;
+    position: absolute;
+    position: fixed;
+    top: 35rem;
+    left: 6rem;
+
+    &__text {
+        overflow: hidden;
+        width: fit-content;
+        margin-bottom: -10px;
+
+        &--word{
+            color: $page-heading;
+            padding: 0;
+            margin: 0;
+            font-size: 6rem;
+        }
+    }
+   
+
+}

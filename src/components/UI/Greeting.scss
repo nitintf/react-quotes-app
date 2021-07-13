@@ -1,0 +1,15 @@
+.greeting {
+    width: 70rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 1rem;
+
+
+
+    &__date {
+        font-size: 0.8rem;
+        color: rgba(163, 163, 163, 0.349);
+    }
+}

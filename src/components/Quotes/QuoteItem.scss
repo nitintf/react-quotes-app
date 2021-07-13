@@ -1,0 +1,28 @@
+@import '../../scss/variables.scss';
+
+.quotes-item {
+    background-color: $dark-grey;
+    padding: 2rem 3rem;
+    width: 40rem;
+    height: fit-content;
+    position: relative;
+
+    
+     
+    .quotes-detail {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+        
+        h3 {
+            width: 80%;
+            line-height: 1.5;
+            
+        }
+
+        p{
+            align-self: flex-start;
+            font-family: $sec-font;
+        }
+    }

@@ -1,0 +1,57 @@
+@import '../../scss/variables.scss';
+
+.comment {
+
+    &__form{
+    margin-top: 40px;
+    width:40rem;
+    padding: .8rem 1.2rem;
+    background-color: $white;
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    border-radius: 4px;
+
+    &--input {
+        background-color: transparent;
+        flex:1;
+        border: none;
+        font-family: inherit;
+        outline: none;
+        font-size: 1rem;
+        border-right: 1px solid $mid-grey;
+        }
+    }
+
+    &__section {
+        margin-top: 50px;
+        @include flex;
+        flex-direction: column;
+        gap: 10px;
+        &--heading {
+            align-self: flex-start;
+        }
+        &--comments {
+            width: 100%;
+
+            > div {
+                padding: 1rem;
+                @include flex;
+                border-bottom: .5px solid $white;
+                &:nth-last-child(1){
+                    border: none;
+                }
+            }
+
+        }
+
+    }
+}
+
+.enter-icon{
+    fill: $mid-grey;
+    cursor: pointer;
+    &:hover{
+        fill: black
+    }
+}
